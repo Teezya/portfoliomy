@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f8f5" />
+  <meta name="description" content="Данил Сухомлинов — разработчик веб-сайтов и цифровых продуктов. Портфолио проектов, навыки и контакты." />
+  <title>Данил Сухомлинов — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Danil home"><span class="brand-symbol">d<span>.</span></span><span class="brand-name">DANIL<span>.DEV</span></span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#projects" data-i18n="navProjects">Проекты</a>
+        <a href="#about" data-i18n="navAbout">Обо мне</a>
+        <a href="#services" data-i18n="navServices">Услуги</a>
+        <a href="#contact" data-i18n="navContact">Контакты</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="language-toggle" id="languageToggle" aria-label="Switch language">EN</button>
+        <a class="nav-cta" href="#contact"><span data-i18n="navCta">Обсудить проект</span><span class="arrow">↗</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false"><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="pulse"></span><span data-i18n="availability">Открыт к интересным проектам</span></div>
+        <p class="hero-overline" data-i18n="hello">Привет, я Данил — разработчик</p>
+        <h1 data-i18n="heroTitle">Превращаю идеи<br>в <span class="accent-text">цифровые продукты.</span></h1>
+        <p class="hero-description" data-i18n="heroDescription">Создаю сайты и веб-приложения — продумываю интерфейс, собираю логику и работаю с данными. От первой идеи до работающего результата.</p>
+        <div class="hero-buttons">
+          <a class="button button-dark" href="#projects"><span data-i18n="viewWork">Посмотреть работы</span><span class="button-icon">↓</span></a>
+          <a class="button button-outline" href="mailto:shade2275@gmail.com"><span data-i18n="contactMe">Связаться со мной</span><span class="button-icon">↗</span></a>
+        </div>
+        <div class="hero-footnote"><span class="tiny-line"></span><span data-i18n="heroFootnote">Веб-разработка · UI · Интеграции</span></div>
+      </div>
+      <div class="hero-art reveal reveal-delay" aria-label="Декоративная композиция с интерфейсами">
+        <div class="art-backdrop"></div>
+        <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
+        <div class="floating-window window-main">
+          <div class="window-top"><span class="window-dots"><i></i><i></i><i></i></span><span>danil.dev / workspace</span><span class="window-live">LIVE</span></div>
+          <div class="window-content">
+            <div class="window-sidebar"><b class="mini-brand">d.</b><span class="side-active"></span><span></span><span></span><span></span></div>
+            <div class="window-dashboard">
+              <div class="dash-label">DIGITAL WORKSPACE</div><div class="dash-title">Ideas into<br><em>reality.</em></div>
+              <div class="dash-bottom"><span>DESIGN</span><b>+</b><span>DEVELOPMENT</span></div>
+              <div class="dash-progress"><i></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="float-card float-code"><span class="float-card-icon">{ }</span><span><b>Clean code</b><small>Thoughtful solutions</small></span><span class="float-check">✓</span></div>
+        <div class="float-card float-stack"><span class="stack-dot">●</span><span><b>React / Node.js</b><small>My everyday toolkit</small></span></div>
+        <div class="hero-number">01 <span>— 03</span></div>
+      </div>
+      <div class="hero-bottom"><span data-i18n="heroBottom">Думаю о деталях. Забочусь о результате.</span><a href="#projects"><span data-i18n="scrollDown">Листайте вниз</span><b>↓</b></a></div>
+    </section>
+
+    <section class="tech-strip">
+      <div class="container tech-inner"><span class="tech-caption" data-i18n="techCaption">ТЕХНОЛОГИИ</span><div class="tech-marquee"><div class="tech-track"><span>React</span><i>✳</i><span>TypeScript</span><i>✳</i><span>JavaScript</span><i>✳</i><span>Node.js</span><i>✳</i><span>PHP</span><i>✳</i><span>MongoDB</span><i>✳</i><span>Flutter</span><i>✳</i><span>React</span><i>✳</i><span>TypeScript</span><i>✳</i><span>JavaScript</span><i>✳</i><span>Node.js</span><i>✳</i><span>PHP</span><i>✳</i><span>MongoDB</span><i>✳</i><span>Flutter</span><i>✳</i></div></div></div>
+    </section>
+
+    <section class="section container projects-section" id="projects">
+      <div class="section-heading reveal"><div><span class="section-kicker">01 / SELECTED WORK</span><h2 data-i18n="projectsTitle">Проекты<span class="accent-dot">.</span></h2></div><p data-i18n="projectsIntro">Небольшая подборка учебных и самостоятельных работ. Каждый проект — возможность попробовать новую идею и прокачать навыки.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-large reveal">
+          <a class="project-image" href="https://github.com/Teezya/teezya.github.io" target="_blank" rel="noreferrer" aria-label="Открыть репозиторий каталога одежды"><img src="assets/atelier.jpg" alt="Концептуальный интерфейс интернет-каталога одежды Atelier"/><span class="image-open">↗</span><span class="image-label">01 / E-COMMERCE</span></a>
+          <div class="project-meta"><div><span class="project-category" data-i18n="fashionCategory">ИНТЕРНЕТ-КАТАЛОГ · УЧЕБНЫЙ ПРОЕКТ</span><h3 data-i18n="fashionTitle">Каталог одежды</h3></div><a class="project-arrow" href="https://github.com/Teezya/teezya.github.io" target="_blank" rel="noreferrer" aria-label="GitHub project">↗</a></div>
+          <p class="project-description" data-i18n="fashionDescription">Веб-сайт с каталогом товаров и отдельными страницами интерфейса. В репозитории — HTML, CSS и материалы проекта.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>Responsive UI</span></div>
+        </article>
+        <article class="project-card reveal reveal-delay">
+          <a class="project-image" href="https://github.com/Teezya/Qolday" target="_blank" rel="noreferrer" aria-label="Открыть репозиторий Qolday"><img src="assets/qolday.jpg" alt="Концептуальные экраны мобильного приложения Qolday для поддержки студентов"/><span class="image-open">↗</span><span class="image-label">02 / MOBILE CONCEPT</span></a>
+          <div class="project-meta"><div><span class="project-category" data-i18n="qoldayCategory">МОБИЛЬНЫЙ ПРОЕКТ · УЧЕБНЫЙ</span><h3>Qolday</h3></div><a class="project-arrow" href="https://github.com/Teezya/Qolday" target="_blank" rel="noreferrer" aria-label="GitHub project">↗</a></div>
+          <p class="project-description" data-i18n="qoldayDescription">Идея цифровой платформы поддержки студентов. В открытом репозитории доступны README и материалы проекта.</p>
+          <div class="tag-list"><span>Mobile UI</span><span>Firebase</span><span>Concept</span></div>
+        </article>
+        <article class="project-card project-wide reveal">
+          <a class="project-image" href="https://github.com/Teezya/modo-testing-site" target="_blank" rel="noreferrer" aria-label="Открыть репозиторий Modo Testing"><img src="assets/modo-testing.jpg" alt="Интерфейс образовательной платформы Modo Testing: тестирование и результаты класса"/><span class="image-open">↗</span><span class="image-label">03 / EDUCATION PLATFORM</span></a>
+          <div class="project-meta"><div><span class="project-category" data-i18n="testingCategory">ВЕБ-СЕРВИС · ОБРАЗОВАНИЕ</span><h3>Modo Testing</h3></div><a class="project-arrow" href="https://github.com/Teezya/modo-testing-site" target="_blank" rel="noreferrer" aria-label="GitHub project">↗</a></div>
+          <p class="project-description" data-i18n="testingDescription">Веб-платформа для прохождения тестов и просмотра результатов. Проект включает пользовательскую часть и административные сценарии.</p>
+          <div class="tag-list"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+        </article>
+      </div>
+      <div class="projects-bottom reveal"><span data-i18n="moreProjects">Больше кода и экспериментов — на GitHub</span><a href="https://github.com/Teezya" target="_blank" rel="noreferrer">github.com/Teezya <b>↗</b></a></div>
+      <p class="visual-note" data-i18n="visualNote">Изображения проектов — визуальные концепции интерфейсов, подготовленные для презентации портфолио; они не являются скриншотами работающих продуктов.</p>
+    </section>
+
+    <section class="about-section" id="about"><div class="container about-layout">
+      <div class="about-heading reveal"><span class="section-kicker">02 / ABOUT ME</span><h2 data-i18n="aboutTitle">Интересуюсь<br><em>тем, что можно создать.</em></h2><div class="about-monogram">d<span>.</span></div></div>
+      <div class="about-content reveal reveal-delay"><p class="about-lead" data-i18n="aboutLead">Я Данил — студент IT-специальности и начинающий разработчик. Развиваюсь в веб- и мобильной разработке, создаю учебные и личные проекты.</p><p data-i18n="aboutText">Мне интересны интерфейсы, серверная логика, базы данных и интеграции. Люблю самостоятельно изучать документацию, разбираться в ошибках и доводить задачи до понятного результата.</p>
+        <div class="achievements"><div class="achievement"><strong>III</strong><span data-i18n="awardOne">место в конкурсе проектов «Монетизация идей», 2025</span></div><div class="achievement"><strong>100%</strong><span data-i18n="awardTwo">грант ректора МЭТУ на весь период обучения, 2025</span></div><div class="achievement"><strong>2026</strong><span data-i18n="awardThree">сертификат за участие в Aqmola Power</span></div></div>
+      </div>
+    </div></section>
+
+    <section class="section container services-section" id="services"><div class="section-heading reveal"><div><span class="section-kicker">03 / SERVICES</span><h2 data-i18n="servicesTitle">Чем могу помочь<span class="accent-dot">.</span></h2></div><p data-i18n="servicesIntro">Обсудим вашу задачу и подберём реалистичный формат реализации. Беру проекты, соответствующие моему текущему уровню и возможностям.</p></div>
+      <div class="services-grid"><article class="service-card reveal"><span class="service-index">01</span><div class="service-icon">↗</div><h3 data-i18n="serviceOneTitle">Сайты</h3><p data-i18n="serviceOneText">Лендинги, сайты-визитки, страницы услуг и небольшие каталоги.</p><span class="service-line"></span></article><article class="service-card reveal reveal-delay"><span class="service-index">02</span><div class="service-icon">⌘</div><h3 data-i18n="serviceTwoTitle">Веб-приложения</h3><p data-i18n="serviceTwoText">Формы, личные кабинеты и небольшие системы с базой данных.</p><span class="service-line"></span></article><article class="service-card reveal reveal-delay-2"><span class="service-index">03</span><div class="service-icon">✳</div><h3 data-i18n="serviceThreeTitle">Прототипы и MVP</h3><p data-i18n="serviceThreeText">Первые версии цифровых продуктов для проверки идеи.</p><span class="service-line"></span></article></div>
+      <p class="service-footnote" data-i18n="serviceFootnote">Стоимость и сроки обсуждаются после уточнения требований и объёма работы.</p>
+    </section>
+
+    <section class="toolkit-section"><div class="container"><div class="section-heading reveal"><div><span class="section-kicker">04 / TOOLKIT</span><h2 data-i18n="toolkitTitle">Инструменты<span class="accent-dot">.</span></h2></div><p data-i18n="toolkitIntro">Технологии, с которыми знаком по обучению и самостоятельной практике.</p></div><div class="toolkit-grid"><div class="toolkit-group reveal"><span>01 — FRONTEND</span><div><b>HTML5</b><b>CSS3</b><b>JavaScript</b><b>React</b><b>TypeScript</b><b>Vite</b><b>Tailwind CSS</b></div></div><div class="toolkit-group reveal reveal-delay"><span>02 — BACKEND & DATA</span><div><b>Node.js</b><b>NestJS</b><b>PHP</b><b>REST API</b><b>MySQL</b><b>MongoDB</b><b>Firebase</b><b>Prisma</b></div></div><div class="toolkit-group reveal reveal-delay-2"><span>03 — MOBILE & TOOLS</span><div><b>Flutter</b><b>Dart</b><b>Git</b><b>GitHub</b><b>VS Code</b><b>npm</b></div></div></div></div></section>
+
+    <section class="contact-section container" id="contact"><div class="contact-card reveal"><div class="contact-main"><span class="section-kicker">05 / GET IN TOUCH</span><h2 data-i18n="contactTitle">Есть идея?<br><em>Давайте обсудим.</em></h2><p data-i18n="contactText">Расскажите, что хотите создать. Я отвечу, уточню детали и предложу следующий шаг.</p><a class="button button-light" href="mailto:shade2275@gmail.com"><span data-i18n="emailButton">Написать на почту</span><span class="button-icon">↗</span></a></div><div class="contact-details"><div><span>EMAIL</span><a href="mailto:shade2275@gmail.com">shade2275@gmail.com ↗</a></div><div><span>PHONE</span><a href="tel:+77051196855">+7 705 119-68-55 ↗</a></div><div><span>GITHUB</span><a href="https://github.com/Teezya" target="_blank" rel="noreferrer">github.com/Teezya ↗</a></div><div class="contact-status"><i></i><span data-i18n="availability">Открыт к интересным проектам</span></div></div><div class="contact-decoration">LET'S<br>BUILD<span>.</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#top"><span class="brand-symbol">d<span>.</span></span><span class="brand-name">DANIL<span>.DEV</span></span></a><span data-i18n="footerNote">Сделано с вниманием к деталям.</span><span>© <span id="year"></span> DANIL SUKHOMLINOV</span></div></footer>
+  <button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
